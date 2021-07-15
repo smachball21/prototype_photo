@@ -5,10 +5,10 @@
 		header("Location: ../");
 	}
 	
-	$SQLhost = 'localhost';
-	$SQLpass = 'pr0to21';
-	$SQLlogin = 'prototype';
-	$SQLdb = 'prototype';
+	$SQLhost = '';
+	$SQLpass = '';
+	$SQLlogin = '';
+	$SQLdb = '';
 	
 	$conn = mysqli_connect($SQLhost, $SQLlogin, $SQLpass, $SQLdb);
 	
